@@ -1,0 +1,36 @@
+
+
+.true{
+    animation-duration: 0.5s;
+    animation-name: slidein;
+    position: absolute;
+}
+
+@keyframes slidein{
+    from{
+        top: -100vh;
+    }
+    to {
+        top: 0vh;
+    }
+}
+
+.false{
+    animation-duration:0.5s ;
+    animation-name: slideout;
+    position: absolute;
+    top: -100vh;
+   
+   
+}
+
+@keyframes slideout {
+    from{
+        top: 0vh;
+
+    }
+    to{
+        top: 100vh;
+    }
+
+}
